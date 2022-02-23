@@ -1,25 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import AboutMe from './components/AboutMe';
+import Contact from './components/Contact';
+import Resume from './components/Resume';
+import Projects from './components/Projects';
+import scroll from './assets/scroll.png'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+	return (
+		<div className='App'>
+      <header>
+        <h1 className='name'>Melissa Morgan</h1>
+        <h3>Welcome to my portfolio. It's nice to meet you!</h3>
+        <div className='scroll'>
+          <img src={scroll} alt="scroll down" />
+        </div>
       </header>
-    </div>
-  );
+			<AboutMe />
+      <Projects />
+			<Contact />
+			<Resume />
+		</div>
+	);
 }
 
 export default App;
