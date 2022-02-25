@@ -4,7 +4,7 @@ import resume from '../assets/resume.pdf'
 
 function Home(props) {
     return (
-        <div>
+        <div className='resume'>
             <h2>Resume</h2>
             <Document file={resume}>
                 <Page pageNumber={1}/>

@@ -21,7 +21,7 @@ h3 {
   font-weight: 500;
 }
 .headshotImg img {
-  width: 300px;
+  width: 250px;
 }
 .subtitle {
   color: black;
@@ -30,6 +30,40 @@ h3 {
   font-weight: 200;
 }
 .scroll img {
-  margin-top: 25%;
-  width: 50px;
+  margin-top: 10%;
+  width: 55px;
+}
+.aboutMe {
+  display: grid;
+  grid-template-columns: 40% 60%;
+	grid-auto-rows: 25%;
+	grid-gap: 5px;
+  margin: 1rem;
+}
+.column2 {
+  margin: 1rem;
+}
+ul {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-gap: 1rem;
+  margin: 1rem;
+  padding: 0px;
+  margin-top: 2rem;
+  font-style: italic;
+}
+
+.initials img {
+  width: 65px;
+}
+.finalMessage {
+  font-weight: 200;
+  padding-bottom: 1rem;
+  margin-top: .25rem;
+}
+.resume {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
