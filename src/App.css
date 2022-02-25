@@ -53,3 +53,18 @@ ul {
   margin-top: 2rem;
   font-style: italic;
 }
+
+.initials img {
+  width: 65px;
+}
+.finalMessage {
+  font-weight: 200;
+  padding-bottom: 1rem;
+  margin-top: .25rem;
+}
+.resume {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

@@ -3,7 +3,8 @@ import AboutMe from './components/AboutMe';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
 import Projects from './components/Projects';
-import scroll from './assets/scroll.png'
+import scroll from './assets/scroll.png';
+import Footer from './components/Footer';
 
 function App() {
 	return (
@@ -19,6 +20,7 @@ function App() {
       <Projects />
 			<Contact />
 			<Resume />
+      <Footer />
 		</div>
 	);
 }
